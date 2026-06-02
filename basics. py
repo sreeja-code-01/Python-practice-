@@ -16,3 +16,7 @@ strl2="ale"
 print(strl1+strl2)
 output:-sreeja.ale
 -----------------------
+length of string:
+strl1="sreeja"
+print(len(strl1))
+output:6
