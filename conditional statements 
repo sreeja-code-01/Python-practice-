@@ -1,0 +1,17 @@
+num=int(input("num: "))
+if(num>=0):
+print("pos no")
+else:
+print("negative no")
+---------------------------
+num=int(input("num: "))
+if(num%2==0):
+ print("divisivle by 2 ")
+else:
+  print("not Divisible")
+---------------------------
+num=int(input("num: "))
+if(num>=18):
+ print("can vote ")
+else:
+  print("no vote")
