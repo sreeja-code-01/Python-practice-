@@ -20,4 +20,4 @@ else:
 eg:1)if(num>=18):
         print("can vote ")  [works]
 2)if(num>=18):
- print("can vote ") [will not work]
+ print("can vote ") [will not work]"""
