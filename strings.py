@@ -22,4 +22,3 @@ str.count();-
 strl="I am sreeja"
 print(str.count("a"))
 output:-2 
-‐-------------------------------
