@@ -22,3 +22,8 @@ str.count();-
 strl="I am sreeja"
 print(str.count("a"))
 output:-2 .
+ ‐-------------------------------
+str="hello"
+print(str[0]) #possible
+str[0]="y"
+print(str[0]) #not possible
