@@ -7,5 +7,8 @@ list.sort(reverse=true)
 print(list) # arrangesin descending order
 list.reverse()
 print(list)
+list.pop(2) # 2nd index,removes element from particular index
+print(list)
+
 
 
