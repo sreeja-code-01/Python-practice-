@@ -70,6 +70,11 @@ lists are mutable
 list[0]=5 # possible
 strings are immutable 
 str[0]="y" # not possible
+‐-------------------------------
+numbers = [10, 20, 30, 40]
+
+numbers.reverse()
+print(numbers)
 
 
 
