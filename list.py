@@ -79,6 +79,13 @@ print(numbers)
 fruits = ["apple", "banana", "mango", "orange", "grapes"]
 print(fruits)
 ‐-------------------------------
+numbers = [5, 10, 15, 20]
+
+if 10 in numbers:
+    print("Found")
+else:
+    print("Not Found")
+
 
 
 
