@@ -52,4 +52,12 @@ student = {
 }
 
 print(student.items())
+‐-------------------------------
+return all keys
+student = {
+    "name": "Abhinay",
+    "age": 17
+}
+
+print(student.keys())
     
