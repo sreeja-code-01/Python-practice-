@@ -33,5 +33,23 @@ stud={
 }
 print(stud)
 print(stud["sub"])
-print(stud["sub"]["chem"])
+print(stud["sub"]["chem"
+‐-------------------------------
+methods:-
+return all values
 
+student = {
+    "name": "Abhinay",
+    "age": 17
+}
+
+print(student.values())
+‐------------------------------
+return all key values together
+student = {
+    "name": "Abhinay",
+    "age": 17
+}
+
+print(student.items())
+    
