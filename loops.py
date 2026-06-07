@@ -39,5 +39,14 @@ num=num+1
 
     print(num)
 -----------------
+store elm in list print using loop
+list=[ 10,20,30,40,50]
+idx=0
+while idx<len(list)-1
+ print(list[idx)
+idx=idx+1
+-----------------
+
+
 
 
