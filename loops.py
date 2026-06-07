@@ -30,4 +30,14 @@ while num <= 10:
     print(2 * num)
     num += 1
 -----------------
+print no.s from 1t0 5 except 3
+num=1 
+while num<=5
+num=num+1
+    if num == 3:
+        continue  # continue means skip this part,if num==3 it skips and goes back to top num will increase to 4 
+
+    print(num)
+-----------------
+
 
