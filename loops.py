@@ -46,7 +46,14 @@ while idx<len(list)-1
  print(list[idx)
 idx=idx+1
 -----------------
-
+search a no.in tuple using loop
+tup=(10,20,30,40,50)
+target=40
+idx=0
+while idx<len(list)-1
+if(tup[idx]==target)
+ print("found at indx",idx)
+idx=idx+1
 
 
 
