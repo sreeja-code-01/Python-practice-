@@ -68,10 +68,10 @@ output:-
 2
 3
 4
-#item=1.    
+"""item=1.    
 print(item)
 item=2
-print(item).....so on
+print(item).....so on"""
 -----------
 fruits=["app","orag","mango"]
 for i in fruits:
@@ -85,4 +85,31 @@ mango
 .for i in range()
 .for i in range(start,stop)
 .for i in range(stat,stop,step)
+----------
+ print hello 3 time:
+for i in range(4):
+   print(i)
+output:-hello
+hello
+hello
+-------------
+print feon 1 to 5
 
+for i in range(1,6):# start from 0 and stop before 6 i.e 5
+   print(i)  
+output:-1
+2
+3
+4
+5
+---------
+print even no. from 2 to 10
+for i in range(2,11,2) # start,stop,increase by
+print(i)
+output:-
+2
+4
+6
+8
+10
+-----------
