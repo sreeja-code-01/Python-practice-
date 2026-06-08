@@ -126,6 +126,9 @@ output:-
 print 6 table
 for i in range(1,11)
  print("6 ×" i "="6*i)
+(or)
+for i in range(1,11)
+   print(6*i)
 ------------
 print no.s from 10 to 1
 for i in range(10,0,-1)
@@ -144,4 +147,33 @@ fact=1
 for i in range(1,n+1)
   fact=fact*i
    print(fact)
+---------
+print a string
+for ch="sreeja"
+  print(ch)
+output:-
+s
+r
+e
+e
+j
+a
+-------
+print 1 to 20 skip 10 using continue 
+for i in range(1,21)
+    if(i==10)
+      continue
+       print(i)
+output:-
+1
+2
+3
+.
+.
+9
+11
+12
+.
+.
+20
 ---------
