@@ -100,3 +100,9 @@ odd
 even
 even
 --------
+def sq(n)
+  return n*n
+print(sq(5))
+output:-
+25
+-------
