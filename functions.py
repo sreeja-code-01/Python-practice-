@@ -87,3 +87,16 @@ if a>b:
 print(max(5,6))
 (or)
 -----------
+def check(a)
+  if a%2==0
+   return "even"
+   else:
+    return "odd"
+print(check(5))
+print(check(4))
+print(check(8))
+output;-
+odd
+even
+even
+--------
