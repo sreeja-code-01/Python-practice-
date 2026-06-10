@@ -112,6 +112,7 @@ def even(n)
     if n==12
     return 
    print(n)
+
    even(n+2)
 even(2)
 -------
@@ -179,3 +180,12 @@ def mult3(n):
 
 mult3(3)
 --------
+def countdown(n):
+    if n == 0:
+        return
+
+    print(n)
+    countdown(n - 1)
+
+countdown(10)
+------
