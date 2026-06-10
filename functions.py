@@ -106,3 +106,20 @@ print(sq(5))
 output:-
 25
 -------
+RECURSION....
+    even no.s from 2 to 10
+def even(n)
+    if n==12
+    return 
+   print(n)
+   even(n+2)
+even(2)
+-------
+print no.s from 1 to 10
+def num(n)
+  if n==11
+  return 
+  print(n)
+  num(n+1)
+num(1)
+-------
