@@ -9,3 +9,9 @@ how r u
 output:hello this is me
 how r u
 --------
+f=open("data.txt","w")  
+f.write("iam here")
+f.close()
+output:
+iam here
+-----
