@@ -1,3 +1,4 @@
+
 fl:main
 f=open("data.txt","r")  
 data=f.read()
@@ -72,6 +73,14 @@ for line in f:
  count=len(readlines)
  print(count)
 f.close()
-
+----------
+copy contents from one file to another 
+f1=open("data.txt","r") 
+data=f1.read()
+f1.close()
+f2=open("data.txt","w")
+f2.write(data)
+f.close()
+-------
 
 
