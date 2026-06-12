@@ -52,3 +52,13 @@ hello
 output 
 this is me 
 --------
+check whether "learning" is present in file
+f=open("data.txt","r")  
+data=f.read()
+if "learning" in content:
+  print("found)
+        else:
+ print("not found")
+--------
+
+
