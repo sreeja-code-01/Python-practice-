@@ -67,7 +67,11 @@ for line in f:
  print(line)
  f.close()
  -------
- 
+ count lines in a file
+ f=open("data.txt","r")
+ count=len(readlines)
+ print(count)
+f.close()
 
 
 
