@@ -82,5 +82,8 @@ f2=open("data.txt","w")
 f2.write(data)
 f.close()
 -------
+f.read()-reads the file
+print(f.read())-reads and prints content on screen
+-------
 
 
