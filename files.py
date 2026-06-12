@@ -42,3 +42,13 @@ hello
 output: hello
 this is me
 -------
+f=open("data.txt","w+")  
+f.write("this is me")
+f.seek(0)
+print(f.read())
+f.close()
+f2:
+hello
+output 
+this is me 
+--------
