@@ -6,3 +6,9 @@ class Student:
 s1=Student()
 print(s1.name,s1.age,s1.salary)
 ----------
+class Student:
+    def __init__(self,name):
+        self.name=name
+s1=Student("priya")
+print(s1.name)
+--------
