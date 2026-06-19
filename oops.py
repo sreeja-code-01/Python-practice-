@@ -59,3 +59,16 @@ class car(Vehicle):
 s1=car()
 s1.start()       
 ------------
+#wap abstract class electricity,bill method,chlid calss home
+from abc import ABC,abstractmethod
+class Elect(ABC):
+    @abstractmethod
+    def bill(self,units):
+        pass
+class Home(Elect):
+    def bill(self,units):
+        self.units=units
+        print(self.units*5)
+s1=Home()
+s1.bill(100)        
+            
