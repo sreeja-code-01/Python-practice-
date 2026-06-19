@@ -70,7 +70,8 @@ class Home(Elect):
         self.units=units
         print(self.units*5)
 s1=Home
-s1.bill(100)     
+s1.bill(100)    
+----------
 
 #wap using abstraction for a shape class with an area() method and a square class that printtsarea of a square 
 from abc import ABC,abstractmethod
@@ -83,6 +84,21 @@ class square(Shape):
         self.a=a
         print("square area",a*a)
 s1=square()
-s1.area(5)        
+s1.area(5)
+----------
+#wap using abstraction 
+from abc import ABC,abstractmethod
+class Bank(ABC):
+    @abstractmethod
+    def show_balance(self):
+        pass
+class Savings(Bank):    
+    def show_balance(self,balance):
+        self.balance=balance
+        print("balance is",self.balance)
+s1=Savings()
+s1.show_balance(500)       
+------------------
+
 
             
