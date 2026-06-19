@@ -69,6 +69,20 @@ class Home(Elect):
     def bill(self,units):
         self.units=units
         print(self.units*5)
-s1=Home()
-s1.bill(100)        
+s1=Home
+s1.bill(100)     
+
+#wap using abstraction for a shape class with an area() method and a square class that printtsarea of a square 
+from abc import ABC,abstractmethod
+class Shape(ABC):
+    @abstractmethod
+    def area(self):
+        pass
+class square(Shape):
+    def area(self,a):
+        self.a=a
+        print("square area",a*a)
+s1=square()
+s1.area(5)        
+
             
