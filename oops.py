@@ -46,3 +46,16 @@ class Student:
 s1=Student(5)
 s1.area()
 -------
+#abstraction
+#wap using abstraction foe a vehicle class with start() method and a car class that prints "car is started"
+from abc import ABC, abstractmethod
+class Vehicle(ABC):
+    @abstractmethod
+    def start(self):
+        pass
+class car(Vehicle):
+    def start(self):
+        print("car is started")
+s1=car()
+s1.start()       
+------------
