@@ -99,6 +99,16 @@ class Savings(Bank):
 s1=Savings()
 s1.show_balance(500)       
 ------------------
-
+#inheritance
+class Animal:
+    def eat(self):
+        print("grass")
+class Lion(Animal):
+    def show(self):
+        print("king of jungle")
+s1=Lion()
+s1.show()  
+s1.eat()      
+-------=--
 
             
