@@ -110,5 +110,14 @@ s1=Lion()
 s1.show()  
 s1.eat()      
 -------=--
-
+class Vehicle:
+    def __init__(self,name,speed):
+        self.name=name
+        self.speed=speed
+class Car(Vehicle):
+    def show(self):
+        print(self.name,self.speed)
+s1=Car("bmw",120)
+s1.show()
+-------------
             
