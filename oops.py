@@ -141,4 +141,23 @@ class Savingsaccount(Bank):
 s1=Savingsaccount(10000)
 s1.deposit(150)        
 -------------
+polymorphism:-
+#polymorphisim-diff classes same method but behaves differently
+#dog-sound()--bark,cat-sound()--meow,lion-sound()--roar
+class Dog:
+    def sound(self):
+        print("bark")
+class Cat:
+    def sound(self):
+        print("meow")
+class Lion:
+    def sound(self):
+        print("roar")                
+d=Dog()
+d.sound()
+c=Cat()
+c.sound()
+l=Lion()
+l.sound()        
+-------------
             
