@@ -73,6 +73,16 @@ elif a==b or a==c or b==c:
 else:
     print("scalene")        
 -----------------
+#electricity bill units<=100->5/unit,101-200->7perunit,above 200->8/unit
+
+n=int(input("n= "))
+if n<=100:
+    print(n*5)
+elif n>=101 and n<200:
+    print(n*7)
+else:
+    print(n*8)        
+------------------
 
 
 
