@@ -188,3 +188,14 @@ for i in n:
       countodd=countodd+1
 print(counteven,countodd)      
 ------------
+#COUNT NO.OF LOWER AND UPPER CASES IN A STRING"
+n="SREEJAsree"
+count=0
+countsmall=0
+for i in n:
+    if i.isupper():
+       count=count+1
+    else:
+        countsmall=countsmall+1
+print(count,countsmall)        
+--------------
