@@ -177,3 +177,14 @@ output:-
 .
 20
 ---------
+#count even and odd no.s:
+n="123456789"
+counteven=0
+countodd=0
+for i in n:
+   if int(i) % 2 == 0:
+      counteven=counteven+1
+   else:
+      countodd=countodd+1
+print(counteven,countodd)      
+------------
