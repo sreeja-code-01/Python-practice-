@@ -62,5 +62,17 @@ if temp==rev:
 else:
     print("is not armstrong")
 --------------
+#all eqaul eqilateral,2 eqaul isos,3 diff saclene tringlle
+a=int(input("a= "))
+b=int(input("b= "))
+c=int(input("c= "))
+if a==b and a==c and b==c:
+    print("equilateral")
+elif a==b or a==c or b==c:
+    print("isoscele")
+else:
+    print("scalene")        
+-----------------
+
 
 
