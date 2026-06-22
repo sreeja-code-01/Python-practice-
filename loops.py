@@ -199,3 +199,11 @@ for i in n:
         countsmall=countsmall+1
 print(count,countsmall)        
 --------------
+#checks whether somethings is digit
+n="sree"
+for i in n:
+    if i.isdigit():
+        print("given input is digit")
+    else:
+        print("given input is string")
+----------------------        -----------------
