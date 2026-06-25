@@ -163,6 +163,22 @@ class Area(Shape):
 s1=Area(8)
 s1.show()               
 -----------
+#hospital syatem
+class Person:
+    def show(self,name):
+        self.name=name
+class Doctor(Person):
+    def display(self,speciality):
+        self.speciality=speciality
+class Patient(Doctor):
+    def item(self,disease):
+        self.disease=disease
+        print(self.name,self.speciality,self.disease)
+s1=Patient()
+s1.show("sreeja")
+s1.display("cardiologist")
+s1.item("fever")
+ -------------             
 #multiple inheritance
 class Person:
     def detail(self,name):
