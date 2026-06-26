@@ -128,9 +128,36 @@ class HDFC(Bank):
 s1=SBI()
 s1.interest()
 s2=HDFC()
-s2.interest()                
+s2.interest()         
 ---------------
-
+#HDFC loans category list with interest rate
+from abc import ABC,abstractmethod
+class HDFC(ABC):
+    @abstractmethod
+    def interest(self):
+        print("bank interest")
+class PersonalLoan(HDFC):
+    def interest(self):
+        super().interest()
+        print("personal loan-11%")        
+class GoldLoan(HDFC):
+    def interest(self):
+        print("gold loan-10%")
+class HomeLoan(HDFC):
+    def interest(self):
+        print("hile loan-8%")
+class EducationLoan(HDFC):
+    def interest(self):
+        print("education loan=10%")
+s1=PersonalLoan()
+s1.interest()
+s2=GoldLoan()
+s2.interest()
+s3=HomeLoan()
+s3.interest()
+s4=EducationLoan()
+s4.interest()                            
+--------------
 class Device:
     def details(self,brand):
         self.brand=brand
