@@ -72,6 +72,27 @@ class Home(Elect):
 s1=Home
 s1.bill(100)    
 ----------
+#create abstract class shape with method area() square and rectangle
+from abc import ABC, abstractmethod
+class Shape(ABC):
+    @abstractmethod
+    def area(self):
+        print("helllo world! tnis is me here")
+class Square(Shape):
+    def area(self,s):
+        self.s=s
+        super().area()         #super().area()-calls parent method &later comes back to square method and executes print(self.s*self.s)
+        print(self.s*self.s)
+class Rectangle(Shape):
+    def area(self,l,b):
+        self.l=l
+        self.b=b         
+        print(self.b*self.l)
+s1=Square()
+s1.area(3)
+s2=Rectangle()
+s2.area(2,6)        
+
 class Device:
     def details(self,brand):
         self.brand=brand
