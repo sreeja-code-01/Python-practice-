@@ -330,4 +330,29 @@ c.sound()
 l=Lion()
 l.sound()        
 -------------
+#anstraction + inheritance
+from abc import ABC,abstractmethod
+class Animal(ABC):
+    @abstractmethod
+    def sound(self):
+        print("sound of diff animals")
+class Dog(Animal):
+          def sound(self):
+              super().sound()
+              print("bark")      
+class Cat(Dog):
+      def sound(self):
+            super().sound()
+            print("meow") 
+s1=Cat()
+output:-
+sounf of diff animals
+bark
+meow
+--------
+
+
+
+
+s1.sound()
             
