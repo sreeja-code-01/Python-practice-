@@ -1,4 +1,4 @@
-tlist= [2 1 3]
+list= [2 1 3]
 list.append(4)
 print(list) # add element at end
 list.sort()
@@ -85,7 +85,21 @@ if 10 in numbers:
     print("Found")
 else:
     print("Not Found")
-
+-----------
+#cricket score analysis
+scores=[45,0,78,102,15,60]
+count=0
+countcent=0
+print("highest score=", max(scores))
+print("lowest score=", min(scores))
+for i in scores:
+    if i>=50 and i<=99:
+        count=count+1
+    if i>=100:
+        countcent=countcent+1    
+print("no. of half centuries=",count)
+print("no. of centuries=",countcent)        
+-------------
 
 
 
