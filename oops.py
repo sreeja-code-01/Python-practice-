@@ -372,6 +372,28 @@ class Historybook(Biographies):
 s1=Historybook()
 s1.show()     
 ------------------
+#ABSTRACTION + INHERITANCE
+#vehicle management system
+from abc import ABC,abstractmethod
+class Vehicle(ABC):
+      @abstractmethod
+      def show(self):
+            print("vehicles details are here")
+class Car(Vehicle):
+      def show(self):
+            super().show()
+            print("car name=BMW")     
+class Bike(Car):
+      def show(self):
+            super().show()
+            print("bike mileage=120m")
+class Truck(Bike):
+      def show(self):
+            super().show()
+            print("truck speed=120km/ph")            
+s1=Truck()
+s1.show()
+-----------------
 
 
 
