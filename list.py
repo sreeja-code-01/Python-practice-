@@ -116,5 +116,12 @@ print("adults =",adults)
 print("youngsters =" ,youngsters)
 print("senior citizens=" ,seniorcitizens)        
 -----------
+#check whether a no. is present list or not
+num=[1,2,3,4,6]
+for i in range(1,6):
+    if i not in num:
+        print(i)
+ -------------------       ---------
+
 
 
