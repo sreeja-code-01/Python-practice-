@@ -22,19 +22,6 @@ print(dict.values())
 . dictname.items() # return all key value pairs as tuples
 . dictname.get() # 
 ‐-------------------------------
-Nested dictonary:-
-stud={
-"name":"sree",
-"age":17,
-"sub":{
-"phy":20,
-"chem":10
-}
-}
-print(stud)
-print(stud["sub"])
-print(stud["sub"]["chem"
-‐-------------------------------
 methods:-
 return all values
 
@@ -114,3 +101,13 @@ avg=sum/3
 print(avg)  
 print(max(student.values()))
 print(student["sreeja"],student["priya"],student["harika"])
+-------------
+#printing all keys and values
+student={
+    "name":"sreeja",
+    "rollno":2,
+    "college":"sfc"
+}
+for i in student:
+    print(i,student[i])
+----------
