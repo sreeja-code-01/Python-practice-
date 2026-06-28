@@ -111,3 +111,18 @@ student={
 for i in student:
     print(i,student[i])
 ----------
+#convert list into dictonary
+words=["apple","banana","apple","apple","banana","orange"]
+d={}
+for i in words:
+    if i in d:
+        d[i]=d[i]+1
+    else:
+        d[i]=1    
+print(d)        
+-----------
+
+
+
+
+
