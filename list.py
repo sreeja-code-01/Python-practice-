@@ -122,6 +122,11 @@ for i in range(1,6):
     if i not in num:
         print(i)
  -------------------       ---------
+#conversion of list into tuple
+l=[1,2,3,4,5]
+t=tuple(l)
+print(t)
+---------
 
 
 
