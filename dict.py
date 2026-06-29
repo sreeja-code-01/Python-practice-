@@ -132,8 +132,18 @@ for i in student:
     reverse_dict[student[i]]=i
 print(reverse_dict)
 -----------
-
-
-
+#dict methods
+student={
+    "sreeja":27,
+    "hariks":23,
+    "shruthi":12
+}
+student["rahul"]=13
+print(student.values())
+print(student.items())
+student.update({"akash":21})
+print(student)
+print(student.get("sreeja"))
+------------
 
 
