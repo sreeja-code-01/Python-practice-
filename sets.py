@@ -19,3 +19,17 @@ for i in s:
       e=i                    
 print(e)    
 -----------
+#first non repeating character
+word="pythonprogramming"
+s={}
+for i in word:
+    if i in s:
+        s[i]=s[i]+1
+    else:
+        s[i]=1
+for i in s:
+    if s[i]==1:
+    
+        print(i,s[i])      
+        break    
+--------------
