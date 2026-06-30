@@ -52,3 +52,20 @@ for i in word:
         s[i]=1
 print(s)            
 -------------
+#find most frequent vowel
+word="sreejaprogramminghub"
+s={}
+for i in word:
+   if i in "aeiou":
+        if i in s:
+            s[i]+=1
+        else:
+           s[i]=1
+highest=0
+vowel=""  #strings are stored in ""
+for i in s:
+    if s[i]>highest:
+        highest=s[i]
+        vowel=i
+print(vowel)
+-------------
