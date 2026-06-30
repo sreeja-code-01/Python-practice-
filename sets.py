@@ -42,3 +42,13 @@ for i in word:
         count=count+1
 print(count)
 -------------
+#count frequency of each element
+word="pyhtonprogramminglanguage"
+s={}
+for i in word:
+    if i in s:
+        s[i]=s[i]+1
+    else:
+        s[i]=1
+print(s)            
+-------------
