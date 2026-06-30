@@ -33,3 +33,12 @@ for i in s:
         print(i,s[i])      
         break    
 --------------
+#coun tvowels
+word="pythonprogramminglanguage"
+s={}
+count=0
+for i in word:
+    if i in "aeiou":
+        count=count+1
+print(count)
+-------------
