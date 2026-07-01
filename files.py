@@ -89,3 +89,7 @@ print(f.read())-reads and prints content on screen
 with open("sample.txt","r+") as f:
     f.write("stay home stay safe")   #no close() is needed
  ---------
+#reading using 'with'
+with open("sample.txt","r")as f:
+    print(f.read())
+ -------------
