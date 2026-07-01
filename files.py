@@ -85,5 +85,7 @@ f.close()
 f.read()-reads the file
 print(f.read())-reads and prints content on screen
 -------
-
-
+#writing content using 'with'
+with open("sample.txt","r+") as f:
+    f.write("stay home stay safe")   #no close() is needed
+ ---------
