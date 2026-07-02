@@ -117,3 +117,9 @@ with open("sample.txt","r")as f:
             count=count+1
     print(count)
  ---------------
+methods:-
+1) swapcase=converting upper case to lower and vice versa    
+with open("sample.txt","r")as f:
+    data=f.read()
+    print(data.swapcase())
+2)
