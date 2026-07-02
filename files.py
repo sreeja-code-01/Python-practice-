@@ -122,4 +122,8 @@ methods:-
 with open("sample.txt","r")as f:
     data=f.read()
     print(data.swapcase())
-2)
+2)lower=converts to lower case all words
+
+with open("sample.txt","r")as f:
+    data=f.read()
+    print(data.lower())
