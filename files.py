@@ -107,4 +107,13 @@ with open("sample.txt","r")as f:
             count=count+1
     print(count)        
 ----------------         -----------
-    
+ #count consonants in a file
+
+with open("sample.txt","r")as f:
+    data=f.read()
+    count=0
+    for i in data:
+        if i.isalpha() and not i in "aeiou":
+            count=count+1
+    print(count)
+ ---------------
