@@ -24,8 +24,21 @@ elif choose=="s" and comp=="s":
 else:
     print("invalid choice")    
 ----------------------
+#refactoring
+import random
+def decide(choice):
+    if choice=="y":
+        print(random.randint(1,6))
+    elif choice=="n":
+         print("donot roll")
+    else:
+         print("invalid choice")
+def main():
+    choice=input("roll dice(y/s)= ")
 
-
+    decide(choice)
+main()
+--------
 
 
 
