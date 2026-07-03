@@ -39,6 +39,38 @@ def main():
     decide(choice)
 main()
 --------
+import random
+def computer():
+    comp=random.choice(["r","p","s"])
+    return comp
+def decide(user,show):    
+   if user=="r" and show=="p":
+    print("u won")
+   elif user=="r" and show=="s":
+    print("u won")
+   elif user=="r" and show=="r":
+    print("draw")
+   elif user=="p" and show=="r":
+    print("comp won")
+   elif user=="p" and show=="s":
+    print("comp won")
+   elif user=="p" and show=="p":
+    print("draw")
+   elif user=="s" and show=="r":
+    print("comp won")
+   elif user=="s" and show=="p":
+    print("u wonwon")
+   elif user=="s" and show=="s":
+    print("drwa")
+   else:
+     print("invalid choice")    
+def main():
+    user=input("r/p/s= ")
+    show=computer()
+    print(show)
+    decide(user,show)
+main()
+--------------
 
 
 
