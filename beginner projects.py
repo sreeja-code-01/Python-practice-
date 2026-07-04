@@ -85,8 +85,37 @@ qr.make(fit=True)
 image=qr.make_image()
 image.save("no.png")
 print("saved successfully")
+---------------
+#cafe management system
+import random
+print("welcome to giri cAfe")
+dic={
+    "manchuria":40,
+     "drinks":50,
+     "tea":15,
+     "coffe":16
+    }
+print("here is the menu")
+print("manchuria=40\ndrinks=50\ntea=15\ncoffe=16")
+ordertotal=0
+item1=input("enter ur 1st item= ")
 
+if item1 in dic:
+    ordertotal=ordertotal+dic[item1]
+    print(f"ur  1st {item1} is here")
+else:
+    print("this item is not in menu")    
+choice=input("do u want 2nd order (y/n)= ")  
+if choice=="y":
 
+  item2=input("enter ur 2nd item= ") 
+
+  ordertotal=ordertotal+dic[item2]
+  print(f"ur 2nd {item2} is here") 
+else:
+    print("no item here")
+print("ur total bill is", ordertotal)
+--------
 
 
 
