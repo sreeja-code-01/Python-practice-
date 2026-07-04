@@ -77,6 +77,15 @@ image=Image.open("ganesh.jpg")
 image.save("dup.png")
 print("Image saved succesfully")
 -----------
+#QR CODE
+import qrcode
+qr=qrcode.QRCode()
+qr.add_data("1234568901837")
+qr.make(fit=True)
+image=qr.make_image()
+image.save("no.png")
+print("saved successfully")
+
 
 
 
