@@ -71,8 +71,12 @@ def main():
     decide(user,show)
 main()
 --------------
-
-
+#image procssing
+from PIL import Image
+image=Image.open("ganesh.jpg")
+image.save("dup.png")
+print("Image saved succesfully")
+-----------
 
 
 
