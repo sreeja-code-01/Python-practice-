@@ -393,8 +393,24 @@ class Truck(Bike):
             print("truck speed=120km/ph")            
 s1=Truck()
 s1.show()
------------------
-
+-------------
+#encapsulation with constructors of different classes
+class Vehicle:
+    def __init__(self):
+        print("vehicls related stuff")
+class Car(Vehicle):
+    def __init__(self,mileage):
+        self.mileage=mileage
+        super().__init__()
+        print(self.mileage)    
+class Bike(Vehicle):
+    def __init__(self,speed,model):
+        self.speed=speed
+        self.model=model
+        print(self.speed,self.model) 
+s1=Car("120m")
+s2=Bike(120,"mahendra")
+------------
 
 
 
