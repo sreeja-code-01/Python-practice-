@@ -127,6 +127,17 @@ l=[1,2,3,4,5]
 t=tuple(l)
 print(t)
 ---------
+#roate list from right
+l2=[2,3,4,7,9,1]
 
-
+last=l2.pop()  #pop()-removes last elemnt
+l2.insert(0,last)
+print(l2)
+-------
+#rotate list from list
+l2=[2,3,4,7,9,1]
+first=l2.pop(0)  
+l2.append(first)
+print(l2)
+----------
 
