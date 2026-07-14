@@ -140,4 +140,9 @@ first=l2.pop(0)
 l2.append(first)
 print(l2)
 ----------
+#2nd smallest element
+l1=[12,2,3,5]
+small=min(l1)
+l1.remove(small)
 
+print(min(l1))
