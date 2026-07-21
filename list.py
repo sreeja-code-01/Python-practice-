@@ -144,5 +144,21 @@ print(l2)
 l1=[12,2,3,5]
 small=min(l1)
 l1.remove(small)
-
 print(min(l1))
+----------
+merges two list 
+1)l1=[1,2,3,4,6,8]
+l2=[1,2,3,6,8,9,0,19,18,7,1]
+d=[]
+for i in l1:
+    if i in l1:
+        d.append(i)
+    
+for i in l2:
+   if i not in d:   
+     if i in l2:
+        d.append(i)
+print(d.sort(reverse=True))                
+print(d)
+
+2)
