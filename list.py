@@ -157,7 +157,6 @@ for i in l1:
     
 for i in l2:
    if i not in d:   
-     if i in l2:
         d.append(i)
 print(d.sort(reverse=True))                
 print(d)
