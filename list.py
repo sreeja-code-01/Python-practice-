@@ -173,3 +173,10 @@ l2=[6,7,8,9,10]
 l1.extend(l2)
 print(l1)
 ---------
+check whether a list is palindrome
+l1=[1,2,3,2,1]
+if l1==l1[::-1]:
+      print("palindropme")
+else:
+      print("not palondrome")      
+-------------
