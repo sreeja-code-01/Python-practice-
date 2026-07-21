@@ -147,7 +147,8 @@ l1.remove(small)
 print(min(l1))
 ----------
 merges two list 
-1)l1=[1,2,3,4,6,8]
+1)
+l1=[1,2,3,4,6,8]
 l2=[1,2,3,6,8,9,0,19,18,7,1]
 d=[]
 for i in l1:
@@ -161,9 +162,15 @@ for i in l2:
 print(d.sort(reverse=True))                
 print(d)
 
-2)l1=[1,2,3,4]
+2)
+l1=[1,2,3,4]
 l2=[6,7,8,9,10]
 l3=l1+l2
 print(l3)
 
 3)
+l1=[1,2,3,4]
+l2=[6,7,8,9,10]
+l1.extend(l2)
+print(l1)
+---------
