@@ -8,7 +8,7 @@ print(list) # arrangesin descending order
 list.reverse()
 print(list)
 list.pop(2) # 2nd index,removes element from particular index
-print(list)
+print(list) 
 list.insert(index,element) # inserts element 
 list.insert(1,5)
 print(list)
