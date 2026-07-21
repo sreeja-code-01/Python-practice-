@@ -161,4 +161,9 @@ for i in l2:
 print(d.sort(reverse=True))                
 print(d)
 
-2)
+2)l1=[1,2,3,4]
+l2=[6,7,8,9,10]
+l3=l1+l2
+print(l3)
+
+3)
