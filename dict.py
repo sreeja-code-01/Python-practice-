@@ -188,3 +188,19 @@ for key,value in d.items():
 print(dup)
 print(dup.value("a"))
     ----------
+#converting a list into dictionary
+l1=["apple","banana","mango","orange","mango","apple","guava"]
+l2=["a","b","c","d"]
+d={}
+for i in l1:
+    if i not in d:
+        d[i]=1
+    else:
+        d[i]=d[i]+1
+for i in l2:
+    if i not in d:
+        d[i]=1
+    else:
+        d[i]=d[i]+1        
+print(d)            -
+------------
