@@ -106,7 +106,31 @@ for i in range(length):
         password=password+random.choice(choice2)    
 print(password)        
 ---------------
-
+#trivia game
+import random
+questions={
+    "capital of india":"delhi",
+     "no of states in india":29,
+     "education hub":"hyd"
+}
+def triviagame():
+    questions_list=list(questions.keys())
+    total_questions=3
+    score=0
+    selected_questions=random.sample(questions_list,total_questions)
+    for idx,question in enumerate(selected_questions):
+        print(f"\nquestion {idx+1}:")
+        print(question)
+        user_answer=input("your answer: ")
+        correct_answer=str(questions[question])
+        if user_answer==correct_answer:
+           print("corect")
+           score=score+1
+        else:
+          print("wrong")   
+        print("final score out of 3=", score)     
+triviagame()
+-----------
 
 
 
