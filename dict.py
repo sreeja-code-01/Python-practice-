@@ -159,3 +159,16 @@ else:
     print("not subset")    
  --------
 
+d={
+    "a":2,
+    "b":7,
+    "c":1,
+    "d":4
+}
+max=0
+for value in d.values():
+   
+        if value>max:
+            max=value
+print(max)            
+---------
