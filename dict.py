@@ -145,5 +145,17 @@ student.update({"akash":21})
 print(student)
 print(student.get("sreeja"))
 ------------
-
+#check whether a no.  is subset or not(subset=all elements in one list must be present in another list)
+l1=[1,2,3,4,5]
+l2=[1,2,5,7,9,2,3]
+flag=True
+for i in l1:
+    if i not in l2:
+        flag=False
+        
+if flag:
+    print("subset")        
+else:
+    print("not subset")    
+ --------
 
