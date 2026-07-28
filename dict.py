@@ -172,3 +172,19 @@ for value in d.values():
             max=value
 print(max)            
 ---------
+#removing duplicate value
+d={
+    "a":2,
+    "b":4,
+    "c":2,
+    "d":90,
+    "e":90
+}
+dup={}
+for key,value in d.items():
+    if value not in dup.values():
+        dup[key]=value
+    
+print(dup)
+print(dup.value("a"))
+    ----------
