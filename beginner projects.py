@@ -39,38 +39,6 @@ def main():
     decide(choice)
 main()
 --------
-import random
-def computer():
-    comp=random.choice(["r","p","s"])
-    return comp
-def decide(user,show):    
-   if user=="r" and show=="p":
-    print("u won")
-   elif user=="r" and show=="s":
-    print("u won")
-   elif user=="r" and show=="r":
-    print("draw")
-   elif user=="p" and show=="r":
-    print("comp won")
-   elif user=="p" and show=="s":
-    print("comp won")
-   elif user=="p" and show=="p":
-    print("draw")
-   elif user=="s" and show=="r":
-    print("comp won")
-   elif user=="s" and show=="p":
-    print("u wonwon")
-   elif user=="s" and show=="s":
-    print("drwa")
-   else:
-     print("invalid choice")    
-def main():
-    user=input("r/p/s= ")
-    show=computer()
-    print(show)
-    decide(user,show)
-main()
---------------
 #image procssing
 from PIL import Image
 image=Image.open("ganesh.jpg")
@@ -116,6 +84,28 @@ else:
     print("no item here")
 print("ur total bill is", ordertotal)
 --------
+#random password generator
+import random
+choice="ABCabc@$&1234"
+choice1="abscdggfuAHDURUBRJ"
+choice2="8754353"
+choice3="@%$*^&!"
+length=int(input("length: "))
+user1=input("do u want to add letter (y/n): ")
+user2=input("do u want to add s.c (y/n): ")
+password=""
+for i in range(length):
+    if user1=="y" and user2=="y":
+        password=password+random.choice(choice)
+
+    elif user1=="y"and user2=="n":
+        password=password+random.choice(choice1)
+    elif user1=="n"and user2=="y":
+        password=password+random.choice(choice3)    
+    else:
+        password=password+random.choice(choice2)    
+print(password)        
+---------------
 
 
 
